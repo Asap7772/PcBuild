@@ -1,0 +1,224 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <title>Andromeda enterprises</title>
+
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Custom fonts for this template -->
+      <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+      <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+      <!-- Custom styles for this template -->
+      <link href="css/landing-page.min.css" rel="stylesheet">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <script>
+      window.smoothScroll = function(target) {
+      var scrollContainer = target;
+      do { //find scroll container
+          scrollContainer = scrollContainer.parentNode;
+          if (!scrollContainer) return;
+          scrollContainer.scrollTop += 1;
+      } while (scrollContainer.scrollTop == 0);
+
+      var targetY = 0;
+      do { //find the top of target relatively to the container
+          if (target == scrollContainer) break;
+          targetY += target.offsetTop;
+      } while (target = target.offsetParent);
+
+      scroll = function(c, a, b, i) {
+          i++; if (i > 30) return;
+          c.scrollTop = a + (b - a) / 30 * i;
+          setTimeout(function(){ scroll(c, a, b, i); }, 20);
+      }
+      // start scrolling
+      scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
+    }
+      </script>
+      </head>
+
+      <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-light bg-light static-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">Andromeda Enterprises</a>
+          </div>
+        </nav>
+
+        <!-- Masthead -->
+        <header class="masthead text-white text-center">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-9 mx-auto">
+                <h1 class="mb-5">We Build Custom PCs for your Business or Personal Use!</h1>
+              </div>
+              <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+                <form>
+                  <div class="form-row">
+                    <div class="col-12 col-md-12">
+                      <button class="btn btn-block btn-lg btn-primary" type="button" onclick="smoothScroll(document.getElementById('second'))">Start a PC Build</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- Icons Grid -->
+        <section class="features-icons bg-light text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex">
+                    <i class="icon-screen-desktop m-auto text-primary"></i>
+                  </div>
+                  <h3>Fully Customizable</h3>
+                  <p class="lead mb-0">You have a wide range of options for the components of each PC</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex">
+                    <i class="icon-layers m-auto text-primary"></i>
+                  </div>
+                  <h3>Neat &amp; Organized Build</h3>
+                  <p class="lead mb-0">Ready to show off to your friends and family!</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                  <div class="features-icons-icon d-flex">
+                    <i class="icon-check m-auto text-primary"></i>
+                  </div>
+                  <h3>Easy to Use</h3>
+                  <p class="lead mb-0">Ready to use out of the box!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Image Showcases -->
+        <section class="showcase">
+          <div class="container-fluid p-0">
+            <div class="row no-gutters">
+
+              <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/origin.jpg');"></div>
+              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2>Fully Customizable</h2>
+                <p class="lead mb-0">Choose your own components such as the motherboard, onboard memory or graphics card!</p>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/wireManagement.png');"></div>
+              <div class="col-lg-6 my-auto showcase-text">
+                <h2>Neat &amp; Organized Build</h2>
+                <p class="lead mb-0">We pride ourselves in our excellent wire management and impeccable build quality</p>
+              </div>
+            </div>
+            <div class="row no-gutters">
+              <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/pc_setup.jpg');"></div>
+              <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                <h2>Easy to Use</h2>
+                <p class="lead mb-0">We help you setup the system including the operating system and peripherals.</p>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <div style="padding-left: 30px;padding-right: 30px; padding-top: 100px; padding-bottom: 30px;">
+            <div class="second" id="second">
+              <h2>Discuss your prospective PC Build with one of our representatives!</h2>
+            </div>
+            <div>
+              <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="pwd">Name:</label>
+                  <input type="text" class="form-control" id="pwd" placeholder="Enter Name" name="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group">
+                  <label for="email">Link:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter link to PC Part Picker List" name="email">
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer bg-light">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                <ul class="list-inline mb-2">
+                  <li class="list-inline-item">
+                    <a href="#">About</a>
+                  </li>
+                  <li class="list-inline-item">&sdot;</li>
+                  <li class="list-inline-item">
+                    <a href="form.html">Contact</a>
+                  </li>
+                  <li class="list-inline-item">&sdot;</li>
+                  <li class="list-inline-item">
+                    <a href="#">Terms of Use</a>
+                  </li>
+                  <li class="list-inline-item">&sdot;</li>
+                  <li class="list-inline-item">
+                    <a href="#">Privacy Policy</a>
+                  </li>
+                </ul>
+                <p class="text-muted small mb-4 mb-lg-0">&copy; Andromeda Enterprises 2018. All Rights Reserved.</p>
+              </div>
+              <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item mr-3">
+                    <a href="#">
+                      <i class="fab fa-facebook fa-2x fa-fw"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item mr-3">
+                    <a href="#">
+                      <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">
+                      <i class="fab fa-instagram fa-2x fa-fw"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      </body>
+
+      </html>

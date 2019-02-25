@@ -2,7 +2,7 @@ import requests
 import time
 
 def main():
-    link = "https://pcpartpicker.com/user/kotikpoo000/saved/d8TWZL";
+    link = "https://pcpartpicker.com/list/rqrZKB";
     parseLink(link)
 
 def parseLink(link):
