@@ -10,11 +10,11 @@ app = Flask(__name__)
 app.config.update(dict(
     DEBUG = True,
     MAIL_SERVER = 'smtp.gmail.com',
-    MAIL_PORT = 587,
-    MAIL_USE_TLS = True,
-    MAIL_USE_SSL = False,
+    MAIL_PORT = 465,
+    MAIL_USE_SSL = True,
+    MAIL_USE_TLS = False,
     MAIL_USERNAME = 'andromedacomputersltd@gmail.com',
-    MAIL_PASSWORD = 'qsarcqmuariegkvp',
+    MAIL_PASSWORD = 'jrsoviqnirjszezx',
 ))
 
 mail = Mail(app)
@@ -32,9 +32,9 @@ def my_form_size():
     ppp = pcPartPicker()
     val = ppp.parseLink(l);
 
-    msg = Message("Dear " + n + ",\nAndromeda Enterprises: PC Build Confirmation", sender="andromedacomputersltd@gmail.com", recipients=[e])
+    msg = Message("Andromeda Enterprises: PC Build Confirmation", sender="andromedacomputersltd@gmail.com", recipients=[e])
     msg.add_recipient("andromedacomputersltd@gmail.com")
-    bodytext = "Thank you for contacting Andromeda Enterprises. One of our representatives will contact you shortly."
+    bodytext = "Dear " + n + ",\nThank you for contacting Andromeda Enterprises. One of our representatives will contact you shortly."
 
     if(not (val == 'N/A')):
         bodytext = bodytext + " Here is the PC Build we will review:\n\n" + val.replace('<br>', '\n')

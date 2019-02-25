@@ -1,0 +1,21 @@
+https://pcpartpicker.com/list/rqrZKB
+AMD - Ryzen 7 1800X 3.6 GHz 8-Core OEM/Tray Processor
+Asus - CROSSHAIR VI HERO ATX AM4 Motherboard
+Corsair - Dominator Platinum 16 GB (4 x 4 GB) DDR4-3200 Memory
+Crucial - MX500 1 TB M.2-2280 Solid State Drive
+EVGA - GeForce GTX 1080 Ti 11 GB SC Black Edition Video Card
+Phanteks - Enthoo Evolv ATX Glass ATX Mid Tower Case
+EVGA - SuperNOVA G3 750 W 80+ Gold Certified Fully-Modular ATX Power Supply
+EK - Vardar F3-120 63 CFM 120mm Fan
+EK - Vardar F3-120 63 CFM 120mm Fan
+EK - Vardar F3-120 63 CFM 120mm Fan
+EK - Vardar F3-120 63 CFM 120mm Fan
+EK - Vardar F3-120 63 CFM 120mm Fan
+EK - Vardar F3-120 63 CFM 120mm Fan
+Asus - VE278Q 27.0
+Asus - MG278Q 27.0
+Corsair - K70 RGB MK.2 Wired Gaming Keyboard
+Corsair - SCIMITAR PRO RGB Wired Optical Mouse
+Corsair - HS70  7.1 Channel  Headset
+Bose - Companion 2 Series III 0 nW 2ch Speakers
+cost = $3371.05
